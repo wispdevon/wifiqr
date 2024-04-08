@@ -12,7 +12,8 @@ WifiQR is a helper tool designed to generate valid Wifi QR codes in your termina
 For macOS, you need libqrcode
 ```sh
 brew install libqrcode
-``` or
+``` 
+or
 ```sh
 sudo port install libqrcode
 ```
