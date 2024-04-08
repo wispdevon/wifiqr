@@ -10,6 +10,7 @@ WifiQR is a helper tool designed to generate valid Wifi QR codes in your termina
 - [ ] Windows
 
 TODO:
+- [ ] Add support for WEP/WPA/Open, currently only WPA is supported
 - [ ] Linux support
 - [ ] Support for macOS airport
 - [ ] Implement a cool curl script to do exactly this without install
