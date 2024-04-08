@@ -1,5 +1,5 @@
 ## What is it
-WifiQR is a helper tool designed to generate valid Wifi QR codes in your terminal, utilizing [libqrcode]: https://github.com/ChuckM/libqrcode
+WifiQR is a helper tool designed to generate valid Wifi QR codes in your terminal, utilizing [libqrcode](https://github.com/ChuckM/libqrcode)
 
 ## Supported
 - [x] macOS
@@ -8,7 +8,13 @@ WifiQR is a helper tool designed to generate valid Wifi QR codes in your termina
 - [ ] Linux
   - a good alternative right now is `nmcli device wifi show-password` while I write support
 - [ ] Windows
-  - a good alternative right now is `
+
+TODO:
+- [ ] Linux support
+- [ ] Support for macOS airport
+- [ ] Implement a cool curl script to do exactly this without install
+- [ ] Windows support
+- [ ] Find a way to not need to authenticate via PAM on any platform
 
 ## Installation
 
@@ -31,6 +37,11 @@ After you `chmod +x wifiqr.sh` and optionally move it to path with `sudo mv ./wi
 
 ```sh
 wifiqr
+```
+
+or if you haven't moved it,
+```sh
+./wifiqr.sh
 ```
 
 to generate a QR code for your current Wifi
